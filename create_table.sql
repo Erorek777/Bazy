@@ -29,7 +29,7 @@ CREATE TABLE workers
 ALTER TABLE workers ADD address_id INT
 
 INSERT INTO workers (pesel, first_name, last_name, birthday)
-VALUES ('144', 'Martyna', 'Ziemba', '2004-04-04')
+VALUES ('44444', 'Martyna', 'Zięba', '2004-04-04')
 
 CREATE TABLE address
 (    address_id  INT PRIMARY KEY IDENTITY,
